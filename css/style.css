@@ -15,9 +15,8 @@ body{
 
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 675px;
+    background-size: cover;
+    width: 100%;
 }
 .header_top{
     background-color: var(--header-color);
