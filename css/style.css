@@ -34,27 +34,8 @@ body{
 .now{
     background-color: var(--bg-now-color);
 }
-footer{
+.footer{
     background-color: var(--footer-color);
-    height: 931px;
-    transition: all 0.5s;
 }
 
 
-@media screen and (min-width:420px) {
-    footer{
-        height: 1298px;
-    }
-}
-@media screen and (min-width:744px) {
-    
-    footer{
-        height: 1033px;
-    }
-}
-@media screen and (min-width:1024px) {
-    
-    footer{
-        height: 666px;
-    }
-}
