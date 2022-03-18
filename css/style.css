@@ -30,6 +30,10 @@ body{
 .border_3{
     border-radius: 1rem;
 }
+
+.now{
+    background-color: var(--bg-now-color);
+}
 footer{
     background-color: var(--footer-color);
     height: 931px;
