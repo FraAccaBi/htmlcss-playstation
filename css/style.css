@@ -17,14 +17,19 @@ body{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     width: 100%;
+    aspect-ratio: 3;
 }
 .header_top{
     background-color: var(--header-color);
-    height: 30px;
     transition: all 0.5s;
 }
 
-
+.container{
+    max-width: 1440px;
+}
+.border_3{
+    border-radius: 1rem;
+}
 footer{
     background-color: var(--footer-color);
     height: 931px;
@@ -33,9 +38,6 @@ footer{
 
 
 @media screen and (min-width:420px) {
-    .header_top{
-        height: 50px;
-    }
     footer{
         height: 1298px;
     }
