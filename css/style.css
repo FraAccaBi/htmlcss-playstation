@@ -5,6 +5,7 @@
     --bg-free-color: #303030;
     --bg-now-color: #161C3B;
     --footer-color:#00439C;
+    --primary-color:#2D64E6;
 }
 
 body{
@@ -65,4 +66,13 @@ body{
 
 .play_logo_footer{
     fill: white;
+}
+
+.play_5_slider>.container>.row>.col{
+    opacity: 0.75;
+}
+
+.play_5_slider>.container>.row>.col:hover {
+    border-bottom: 2px solid var(--primary-color);
+    opacity: 1;
 }
