@@ -52,4 +52,6 @@ body{
     background-color: var(--footer-color);
 }
 
-
+.btn_explore{
+    background-color: #D8D9DA;
+}
