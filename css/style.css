@@ -55,3 +55,10 @@ body{
 .btn_explore{
     background-color: #D8D9DA;
 }
+.plus{
+    height: 400px;
+}
+
+.plus>.container>.row>.d-none>img{
+    height: 400px;
+}
